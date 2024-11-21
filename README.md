@@ -9,20 +9,20 @@ To Write a C program that illustrates two processes communicating using shared m
 
 # DESIGN STEPS:
 
-### Step 1:
+# Step 1:
 
 Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
 
-### Step 2:
+# Step 2:
 
 Write the C Program using Linux Process API - Shared Memory
 
-### Step 3:
+# Step 3:
 
 Execute the C Program for the desired output. 
 
-## Write a C program that illustrates two processes communicating using shared memory.
-
+# Write a C program that illustrates two processes communicating using shared memory.
+```
 //shm.c
 
 #include<unistd.h> 
@@ -121,14 +121,13 @@ fprintf(stderr, "shmdt failed\n"); exit(EXIT_FAILURE);
 } exit(EXIT_SUCCESS);
 }
 
-
-
-
-
+```
 
 # OUTPUT
 
+![op 01](https://github.com/user-attachments/assets/fbea4efc-71b7-4da7-b559-abd7408d7b92)
 
+![op 02](https://github.com/user-attachments/assets/a138945d-ddd7-4106-9aa3-1d7adcf98e6c)
 
 
 
